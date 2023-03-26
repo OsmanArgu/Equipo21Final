@@ -1,0 +1,11 @@
+.Footer
+{
+    background-color:rgb(15, 15, 104);
+    min-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(3px + 2vmin);
+    color: azure;
+}

@@ -1,0 +1,72 @@
+
+/*divide las tablas en dos */
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .tabla-container {
+    display: flex;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Divide la columna de nombre en secciones */
+  td.nombre {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  td.nombre span {
+    font-weight: bold;
+  }
+  
+  td.nombre p {
+    margin: 0;
+  }
+  
+  /* Divide la columna de clave en secciones */
+  td.clave {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  td.clave span {
+    font-weight: bold;
+  }
+  
+  td.clave p {
+    margin: 0;
+  }
+  
+  /* Divide la columna de hora en secciones */
+  td.hora {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  td.hora span {
+    font-weight: bold;
+  }
+  
+  td.hora p {
+    margin: 0;
+  }
+  
+  /* Divide la columna de grupo en secciones */
+  td.grupo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  td.grupo span {
+    font-weight: bold;
+  }
+  
+  td.grupo p {
+    margin: 0;
+  }
+  
